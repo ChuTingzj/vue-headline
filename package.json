@@ -4,15 +4,26 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --report",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "dayjs": "^1.11.3",
+    "highlight.js": "10.6.0",
+    "mockjs": "^1.1.0",
+    "pinia": "^2.0.15",
+    "popmotion": "9.3.5",
+    "postcss-pxtorem": "^6.0.0",
+    "socket.io-client": "4.0.0",
+    "vant": "^3.5.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
+    "@types/mockjs": "^1.0.6",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
